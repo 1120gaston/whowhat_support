@@ -1,0 +1,45 @@
+.header {
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 60px;
+	z-index: 1001;
+}
+
+.top-nav-search {
+	float: left;
+	margin-left: 15px;
+}
+
+.top-nav-search form {
+	position: relative;
+	width: 230px;
+}
+
+.top-nav-search .form-control {
+	border-color: rgba(0, 0, 0, 0.1);
+	border-radius: 50px;
+	color: #333;
+	height: 40px;
+	padding: 10px 50px 10px 15px;
+}
+
+.searchBtn {
+	background-color: transparent;
+	border-radius: 50% !important;
+	color: #333;
+	min-height: 40px;
+	padding: 7px 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.top-nav-search.active form {
+	display: block;
+	left: 0;
+	position: absolute;
+}

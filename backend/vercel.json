@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "server/server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/server/server.js"
+        }
+    ],
+    "error": {
+        "404": "/404.html",
+        "500": "/500.html"
+    }
+}

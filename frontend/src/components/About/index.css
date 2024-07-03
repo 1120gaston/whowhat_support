@@ -1,0 +1,39 @@
+.award-img {
+    width: 230px;
+    height: 230px;
+    background-color: #eff0f3;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid rgb(130, 179, 174);
+}
+
+.userName {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.userName:hover {
+    color: #d64472;
+}
+
+img {
+    cursor: pointer;
+}
+
+.say-about {
+    position: relative;
+}
+
+.say-about:before {
+    width: 48%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    content: "";
+    background: url("../../images/about/contact.jpg") no-repeat 50% 50%;
+}
